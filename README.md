@@ -16,7 +16,7 @@ Landing page em React + Vite para a marca Lanchê, organizada para manutenção,
 - `src/app/components/ui`: utilitários visuais reaproveitáveis
 - `src/app/models`: modelos orientados a objeto para conteúdo e regras leves de apresentação
 - `src/app/data`: conteúdo centralizado da landing
-- `src/imports`: imagens e assets da marca
+- `src/assets`: imagens e assets da marca
 
 ## Desenvolvimento local
 

@@ -48,8 +48,8 @@
   --lanche-red: #ff3136;
   --lanche-lime: #9ef57d;
   --lanche-peach: #f7cf84;
-  --font-heading: "Arial Rounded MT Bold", "Trebuchet MS", "Avenir Next", "Segoe UI", sans-serif;
-  --font-body: "Avenir Next", "Trebuchet MS", "Segoe UI", sans-serif;
+  --font-heading: "Arial Rounded MT", "Trebuchet MS", "Avenir Next", sans-serif;
+  --font-body: "Avenir Next", "Trebuchet MS", sans-serif;
 }
 
 .dark {

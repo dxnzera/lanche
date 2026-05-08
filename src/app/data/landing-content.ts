@@ -5,7 +5,7 @@ import {
   Truck,
 } from 'lucide-react';
 import logo from '../../assets/lanche-horizontal.png';
-import brindeLancheira from '../../assets/brinde-lancheira-lanche.png';
+import sucosol from '../../assets/sucosol.png';
 import cookiesPack from '../../assets/embalagem-cookies-lanche.png';
 import sandwichPack from '../../assets/embalagem-sanduiches-lanche.png';
 import plan1 from '../../assets/plan1.png';
@@ -45,7 +45,7 @@ const heroSection = new HeroSectionContent(
   'Alimentação',
   'saudável',
   'para seu filho.',
-  'Lanches nutritivos, seguros e deliciosos. Entregues na sua casa com todo cuidado que seu pequeno merece.',
+  'Lanches personalizados, 100% livres de contaminação cruzada e pensados para a inclusão do seu filho. Praticidade para você, saúde para eles.',
   'Ver cardápio',
   'Sobre nós',
   lanche,
@@ -63,7 +63,7 @@ const menuSection = new MenuSectionContent(
 const products = [
   new Product(
     'Cookies da selva',
-    'Cookies de banana com aveia em uma embalagem divertida que conversa com o universo infantil sem perder o ar premium da marca.',
+    'Um snack crocante por fora e macio por dentro, feito com ingredientes integrais selecionados sem traços de leite ou glúten, conforme a restrição do pequeno aventureiro.',
     cookiesPack,
     'Embalagem de cookies da marca Lanchê',
     'Snack do dia',
@@ -72,7 +72,7 @@ const products = [
   ),
   new Product(
     'Pãozinho do Capitão Franguito',
-    'Mini sanduíche nutritivo com apresentação carinhosa e segura, pensado para lancheiras que precisam ser práticas no dia a dia.',
+    'Pão artesanal de fermentação natural (ou versão especial sem alérgenos), recheado com um suculento frango desfiado, temperado apenas com ervas naturais e um toque de afeto.',
     sandwichPack,
     'Embalagem de sanduíches da marca Lanchê',
     'Mais pedido',
@@ -81,9 +81,9 @@ const products = [
   ),
   new Product(
     'Brinde de boas-vindas',
-    'Na primeira caixa a família recebe uma lancheira charmosa para transformar a rotina em um ritual leve, bonito e cheio de afeto.',
-    brindeLancheira,
-    'Brinde de lancheira da marca Lanchê',
+    'Um suco vibrante de abacaxi, extraído a frio para preservar todas as vitaminas e minerais. Sem adição de açúcares, conservantes ou corantes artificiais.',
+    sucosol,
+    'Brinde de suco',
     'Primeira entrega',
     '#099d58',
     'linear-gradient(180deg, #fffdf1 0%, #f1f9d7 100%)',
@@ -91,19 +91,19 @@ const products = [
 ];
 
 const benefits = [
-  new Benefit(Leaf, 'Ingredientes orgânicos', 'Priorizamos produtos naturais e sem agrotóxicos.'),
-  new Benefit(Shield, 'Segurança total', 'Processos rigorosos de higiene e qualidade.'),
-  new Benefit(Truck, 'Entrega com carinho', 'Entregamos na sua casa com todo o cuidado que seu pequeno merece.'),
-  new Benefit(Sparkles, 'Feito com amor', 'Cada lanche é preparado como se fosse para nossos filhos.'),
+  new Benefit(Leaf, 'Ingredientes orgânicos', 'Ingredientes selecionados, orgânicos e livres de agrotóxicos. Comida de verdade em cada mordida.'),
+  new Benefit(Shield, 'Segurança total', 'Ingredientes selecionados, orgânicos e livres de agrotóxicos. Comida de verdade em cada mordida.'),
+  new Benefit(Truck, 'Entrega com carinho', 'Receba lanches frescos na porta de casa, com pontualidade e preservação máxima dos nutrientes.'),
+  new Benefit(Sparkles, 'Feito com amor', 'Receitas preparadas artesanalmente com o mesmo amor que você dedica à sua família.'),
 ];
 
 const aboutSection = new AboutSectionContent(
   'Sobre nós',
   'Por que escolher a',
   'lanchê?',
-  'Somos especialistas em nutrição infantil. Cada lanche é cuidadosamente planejado para oferecer o melhor para seu filho.',
-  'apresentação da marca',
-  'Uma identidade acolhedora, divertida e segura para acompanhar a rotina da sua família.',
+  'Somos especialistas em transformar a hora do lanche em um momento de saúde e diversão. Nutrição rigorosa com o toque lúdico que a infância pede.',
+  'Mais praticidade para sua família',
+  'Lanches saudáveis, frescos e pensados para cuidar da alimentação infantil com segurança, sabor e praticidade no dia a dia.',
 );
 
 const plansSection = new PlansSectionContent(
@@ -116,29 +116,29 @@ const plansSection = new PlansSectionContent(
 const plans = [
   new Plan(
     'Essencial',
-    'R$149',
+    'R$249',
     'Perfeito para começar com praticidade e equilíbrio.',
     plan1,
     '#ffd20a',
-    ['10 lanches', 'Cardápio básico', 'Entrega quinzenal'],
+    ['5 lanches', 'Nutricionista dedicado', 'Entrega quinzenal'],
   ),
   new Plan(
     'Família',
-    'R$279',
+    'R$449',
     'O plano ideal para manter variedade ao longo do mês.',
     plan3,
     '#f59f0b',
-    ['20 lanches', 'Cardápio premium', 'Entrega semanal', 'Suporte prioritário'],
+    ['10 lanches', 'Nutricionista dedicado', 'Entrega semanal'],
     'Mais escolhido',
     true,
   ),
   new Plan(
     'Premium',
-    'R$449',
+    'R$799',
     'Mais completo para famílias que querem exclusividade.',
     lanche,
     '#099d58',
-    ['30 lanches', 'Cardápio exclusivo', 'Entrega expressa', 'Nutricionista dedicado'],
+    ['20 lanches', 'Nutricionista dedicado', 'Entrega expressa'],
   ),
 ];
 

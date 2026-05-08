@@ -1,11 +1,11 @@
 {
-  "name": "lanche-landing-page",
+  "name": "lanche",
   "version": "0.0.1",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
-      "name": "lanche-landing-page",
+      "name": "lanche",
       "version": "0.0.1",
       "dependencies": {
         "@emotion/react": "11.14.0",
@@ -6115,5 +6115,8 @@
         "url": "https://github.com/sponsors/eemeli"
       }
     }
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2"
   }
 }

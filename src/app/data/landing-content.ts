@@ -84,7 +84,7 @@ const products = [
     'Um suco vibrante de abacaxi, extraído a frio para preservar todas as vitaminas e minerais. Sem adição de açúcares, conservantes ou corantes artificiais.',
     sucosol,
     'Brinde de suco',
-    'Primeira entrega',
+    'Bebida do dia',
     '#099d58',
     'linear-gradient(180deg, #fffdf1 0%, #f1f9d7 100%)',
   ),

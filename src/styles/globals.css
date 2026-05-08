@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/fonts/avenir-next.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Arial Rounded";
+  src: url("/fonts/arial-rounded.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Trebuchet MS";
+  src: url("/fonts/trebuchet-ms.woff2") format("woff2");
+}

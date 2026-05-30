@@ -116,7 +116,7 @@ npm run dev
 Abra no navegador:
 
 ```txt
-http://localhost:5173
+http://localhost:5175
 ```
 
 O servidor Vite está configurado para responder em `0.0.0.0`, facilitando ambientes remotos e port forwarding.

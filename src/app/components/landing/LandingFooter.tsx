@@ -18,13 +18,13 @@ export function LandingFooter({
   return (
     <footer
       id="contato"
-      className="border-t border-[#eadabd] bg-[#fff8e8] px-6 py-16 sm:px-8"
+      className="border-t border-[#eadabd] bg-[#fff8e8] px-5 py-12 sm:px-8 sm:py-16"
     >
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-12 md:grid-cols-4">
           <div className="md:col-span-2">
-            <img src={logoSrc} alt="Lanchê" className="h-12" />
-            <p className="mt-5 max-w-md text-base leading-8 text-[#6b523f]">
+            <img src={logoSrc} alt="Lanchê" className="h-10 sm:h-12" />
+            <p className="mt-5 max-w-md text-base leading-7 text-[#6b523f] sm:leading-8">
               {footer.description}
             </p>
           </div>
@@ -68,7 +68,7 @@ export function LandingFooter({
           </div>
         </div>
 
-        <div className="mt-12 border-t border-[#eadabd] pt-6 text-sm text-[#8d7f73]">
+        <div className="mt-10 border-t border-[#eadabd] pt-6 text-sm leading-6 text-[#8d7f73] sm:mt-12">
           {footer.copyright}
         </div>
       </div>

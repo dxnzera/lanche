@@ -32,13 +32,13 @@ export function ProductCard({
       viewport={{ once: true }}
       transition={{ duration: 0.6, delay }}
       whileHover={{ y: -8 }}
-      className="group relative overflow-hidden rounded-[2rem] border border-white/70 bg-white/90 shadow-[0_28px_80px_rgba(90,55,36,0.14)] backdrop-blur-sm transition-all duration-500 hover:shadow-[0_34px_90px_rgba(90,55,36,0.2)]"
+      className="group relative overflow-hidden rounded-[1.35rem] border border-white/70 bg-white/90 shadow-[0_28px_80px_rgba(90,55,36,0.14)] backdrop-blur-sm transition-all duration-500 hover:shadow-[0_34px_90px_rgba(90,55,36,0.2)] sm:rounded-[2rem]"
     >
       <div
-        className="relative aspect-[4/5] overflow-hidden p-4"
+        className="relative h-[220px] overflow-hidden p-3 sm:aspect-[4/5] sm:h-auto sm:p-4"
         style={{ background }}
       >
-        <div className="absolute left-5 top-5 rounded-full bg-white/85 px-4 py-2 text-xs uppercase tracking-[0.18em] text-[#5a3726] shadow-md">
+        <div className="absolute left-3 top-3 rounded-full bg-white/85 px-3 py-1.5 text-[0.6rem] uppercase tracking-[0.14em] text-[#5a3726] shadow-md sm:left-5 sm:top-5 sm:px-4 sm:py-2 sm:text-xs sm:tracking-[0.18em]">
           {badge}
         </div>
         <div
@@ -64,19 +64,19 @@ export function ProductCard({
           onClick={() => setIsLiked(!isLiked)}
           type="button"
           aria-label={isLiked ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}
-          className="absolute right-5 top-5 z-20 flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-white/90 shadow-lg backdrop-blur-sm"
+          className="absolute right-3 top-3 z-20 flex h-9 w-9 cursor-pointer items-center justify-center rounded-full bg-white/90 shadow-lg backdrop-blur-sm sm:right-5 sm:top-5 sm:h-12 sm:w-12"
         >
           <Heart
-            className={`h-6 w-6 transition-all ${
+            className={`h-5 w-5 transition-all sm:h-6 sm:w-6 ${
               isLiked ? 'fill-[#ff3136] text-[#ff3136]' : 'text-[#8d7f73]'
             }`}
           />
         </motion.button>
       </div>
 
-      <div className="space-y-3 p-7">
-        <h3 className="text-2xl leading-tight text-[#5a3726]">{title}</h3>
-        <p className="text-sm leading-7 text-[#6b523f]">{description}</p>
+      <div className="space-y-2 p-4 sm:space-y-3 sm:p-7">
+        <h3 className="text-xl leading-tight text-[#5a3726] sm:text-2xl">{title}</h3>
+        <p className="text-xs leading-5 text-[#6b523f] sm:text-sm sm:leading-7">{description}</p>
       </div>
     </motion.article>
   );

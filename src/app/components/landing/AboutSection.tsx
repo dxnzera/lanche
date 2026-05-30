@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import lunchBagImage from '../../../assets/brinde-lancheira-lanche.png';
 import type { LandingPageContent } from '../../models/landing';
 import { SectionBackdrop } from './SectionBackdrop';
 
@@ -46,7 +47,7 @@ export function AboutSection({ content }: AboutSectionProps) {
               transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
             />
             <motion.img
-              src={"src/assets/brinde-lancheira-lanche.png"}
+              src={lunchBagImage}
               alt={primaryProduct.imageAlt}
               className="absolute bottom-0 left-3 z-20 w-[86%] object-contain drop-shadow-[0_30px_46px_rgba(90,55,36,0.18)] sm:left-20 sm:w-[95%]"
               transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
